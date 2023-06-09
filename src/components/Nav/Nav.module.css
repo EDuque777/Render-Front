@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    margin-top: 0.4vw;
+    padding-left: 7vw;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.1vw;
+    margin-left: 9.9vw;
+    border-radius: 1vw;
+    width: 15vw;
+    background-color: gold;
+    padding: 0.3vw;
+    border: 0.1vw solid gold;
+    font-size: 1.6vw;
+    font-family: "Times New Roman";
+    transition: background-color 0.5s;
+}
+
+.button:hover{
+    border: 0.1vw solid gold;
+    background-color: black;
+    color: gold;
+}
+
+.order {
+    display: flex;
+    padding-left: 37vw;
+}
